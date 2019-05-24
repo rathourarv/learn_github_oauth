@@ -38,6 +38,5 @@ get '/callback' do
                                 }))
   end
 
-  puts auth_result
   erb :basic, locals: auth_result
 end
